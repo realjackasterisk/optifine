@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://optifine.net/home"><img src="https://raw.githubusercontent.com/realjackasterisk/assets_of/master/optifine.svg?sanitize=true" height="72" alt="OptiFine" /></a>
+    <a href="https://optifine.net/home"><h1>OptiFine</h1></a>
   </p>
   <br />
   <p>
@@ -12,5 +12,4 @@
   </p>
 </div>
 
-# OptiFine
 ### A Minecraft mod for optimization and graphics enhancements.
