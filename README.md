@@ -2,6 +2,7 @@
   <br />
   <p>
     <a href="https://optifine.net/home"><h1>OptiFine</h1></a>
+    <br /><h3>A Minecraft mod for optimization and graphics enhancements.</h3>
   </p>
   <br />
   <p>
@@ -12,4 +13,16 @@
   </p>
 </div>
 
-### A Minecraft mod for optimization and graphics enhancements.
+## Downloads 
+[OptiFine](https://optifine.net/downloads) | [OptiFine (Alt)](http://optifined.net/ "Slightly outdated")
+
+[AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=openj9)
+
+
+## Fake Website Warning
+
+This is a reminder that there are only TWO real websites to download OptiFine from, and that is https://optifine.net and https://optifined.net.
+
+There are many websites that attempt to copy the OptiFine website design, or otherwise just plainly redistribute OptiFine **illegally.** Their downloads may be packaged with malware, adware, trojans, and many other bad things. Be aware of what sites you're visiting, and always try to check and scan your downloads before using them. Note that all versions of OptiFine are packaged as JAR files, not as EXE. If you download OptiFine and it comes as an EXE, **DO NOT RUN IT.**
+
+Stay safe, everyone. https://stopmodreposts.org/
