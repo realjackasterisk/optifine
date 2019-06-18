@@ -1,10 +1,7 @@
+# [OptiFine](https://optifine.net/home)
+### A Minecraft mod for optimization and graphics enhancements.
+
 <div align="center">
-  <br />
-  <p>
-    <a href="https://optifine.net/home"><h1>OptiFine</h1></a>
-    <br /><h3>A Minecraft mod for optimization and graphics enhancements.</h3>
-  </p>
-  <br />
   <p>
     <a href="https://discord.gg/3mMpcwW"><img src="https://img.shields.io/discord/517649143590813707.svg?color=%237289da&label=Discord&logo=discord&logoColor=%23ffffff&style=for-the-badge" alt="Discord" /></a>
     <a href="https://www.reddit.com/r/OptiFine/"><img src="https://img.shields.io/reddit/subreddit-subscribers/optifine.svg?label=%2Fr%2FOptiFine&style=for-the-badge&logo=reddit&color=ff4500&logoColor=ffffff" alt="Reddit" /></a>
