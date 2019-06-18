@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://optifine.net/home"><h1>OptiFine</h1></a>
+  <h1><a href="https://optifine.net/home">OptiFine</a></h1>
   <h3>A Minecraft mod for optimization and graphics enhancements.</h3>
   <p>
     <a href="https://discord.gg/3mMpcwW"><img src="https://img.shields.io/discord/517649143590813707.svg?color=%237289da&label=Discord&logo=discord&logoColor=%23ffffff&style=for-the-badge" alt="Discord" /></a>
@@ -14,6 +14,13 @@
 
 [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=openj9)
 
+## Installation
+Make sure your Minecraft launcher is closed before proceeding. This just saves a LOT of hassle.
+
+1. Download and install Java (use AdoptOpenJDK for best results)
+2. Download OptiFine and run the file with Java (If the file shows as a zip archive, right-click and select "Open with...")
+3. Ensure the install directory points to your `.minecraft` folder before clicking "Install"
+4. You're done!
 
 ## Fake Website Warning
 
