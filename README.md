@@ -12,15 +12,19 @@
 ## Downloads 
 [OptiFine](https://optifine.net/downloads) | [OptiFine (Alt)](http://optifined.net/ "Slightly outdated")
 
-[AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=openj9)
+[AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot) (Get the **JRE Installer**)
+
+[Jarfix](https://johann.loefflmann.net/en/software/jarfix/index.html)
 
 ## Installation
-Make sure your Minecraft launcher is closed before proceeding. This just saves a LOT of hassle.
+IMPORTANT: Make sure your Minecraft launcher is closed before proceeding. This will save you a LOT of hassle!
 
-1. Download and install Java (use AdoptOpenJDK for best results)
-2. Download OptiFine and run the file with Java (If the file shows as a zip archive, right-click and select "Open with...")
+1. Download and install Java.
+   - Since Oracle now requires an account to download Java, we recommend using AdoptOpenJDK.
+2. Download OptiFine and open it with Java.
+   - If the file shows as a zip archive, or the installer simply won't open, try using Jarfix.
 3. Ensure the install directory points to your `.minecraft` folder before clicking "Install"
-4. You're done!
+4. You're done! You should now see a new "OptiFine" profile/installation in the official Minecraft launcher.
 
 ## Fake Website Warning
 

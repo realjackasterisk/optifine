@@ -2,9 +2,12 @@
 <h1>Better Grass</h1>
 </div>
 
-## File location
+## File Location(s)
+
+### File: bettergrass.properties
+Controls settings for Better Grass in this resource pack.
 ```
-assets/minecraft/optifine/bettergrass.properties
+~/assets/minecraft/optifine/bettergrass.properties
 ```
 
 ## Blocks
