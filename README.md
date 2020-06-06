@@ -45,7 +45,7 @@ If you have time, and you happen to come across one of these fraudulent websites
 Read more about the StopModReposts movement: https://stopmodreposts.org/
 ## Found a bug or have a question/suggestion?
 Visit [OptiFine's issue tracker](https://github.com/sp614x/optifine/issues) and ask for help there.  
-### Please read before reporting a bug or seggesting a feature:  
+### Please read before reporting a bug or suggesting a feature:  
 See [the optifine issue template](https://github.com/sp614x/optifine/tree/master/.github/ISSUE_TEMPLATE) .It has a lot of   
-information to help you make make a useful bug report.
+information to help you make make a useful bug report/feature suggestion.
   
