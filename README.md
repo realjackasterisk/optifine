@@ -32,7 +32,7 @@ This is a reminder that there are only TWO genuine websites to download OptiFine
 
 ### https://optifine.net
 ** **
-**and  
+**and**  
 ** **
 ### [https://optifine*d*.net](https://optifined.net)
 
