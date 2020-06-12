@@ -30,11 +30,11 @@
 
 This is a reminder that there are only TWO genuine websites to download OptiFine from, and that is
 
-### https://optifine.net
+### https://optifine.net  
 
-## and  
+**and**  
 
-### [https://optifine*d*.net](https://optifined.net)
+### [https://optifine*d*.net](https://optifined.net)  
 
 Note the **.net** at the end of both these links. There are several websites that may attempt to copy OptiFine's website design with the usage of incredibly similar URLs and web design. There are also other sites that plainly redistribute OptiFine illegally. The files these sites provide may be packaged with malware, adware, trojans, and many other bad things. Be aware of what sites you're visiting, and always try to check/scan your downloads before using them. Note that all versions of OptiFine are packaged as **JAR** applications, and not as **EXE** applications. If you download OptiFine and it comes as a seemingly ordinary EXE, **DO NOT RUN IT.** Stay safe, everyone.
 
