@@ -13,14 +13,15 @@ Better Grass makes grass blocks blend into the surrounding terrain a bit better 
 </div>
 
 ```
-Video Settings... -> Quality... -> Better Grass: FAST|FANCY|OFF
+Video Settings... -> Quality... -> Better Grass: OFF|FAST|FANCY
 ```
 
 | Option | Default | Description |
 | :---: | :---: | :--- |
+| `OFF` | ✔️ |  |
 | `FAST` |  | Grass textures are applied to the sides of ALL grass blocks, regardless of surrounding terrain. |
 | `FANCY` |  | Grass textures are only applied when the block is positioned immediately and diagonally to another grass block in vertical space. |
-| `OFF` | ✔️ | Grass textures are not applied to the sides of grass blocks. |
+
 
 <div align="center">
     <h2>File Location(s)</h2>
