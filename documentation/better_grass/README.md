@@ -2,10 +2,16 @@
 <h1>Better Grass</h1>
 </div>
 
-## Description
+<div align="center">
+    <h2>Description</h2>
+</div>
+
 Better Grass makes grass blocks blend into the surrounding terrain a bit better by using the top texture on the sides of the block. This can help make gradual hills and other terrain appear more smooth and natural.
 
-## In-Game Settings
+<div align="center">
+    <h2>In-Game Options</h2>
+</div>
+
 ```
 Video Settings... -> Quality... -> Better Grass: FAST|FANCY|OFF
 ```
@@ -16,7 +22,9 @@ Video Settings... -> Quality... -> Better Grass: FAST|FANCY|OFF
 | `FANCY` |  | Grass textures are only applied when the block is positioned immediately and diagonally to another grass block in vertical space. |
 | `OFF` | ✔️ | Grass textures are not applied to the sides of grass blocks. |
 
-## File Location(s)
+<div align="center">
+    <h2>File Location(s)</h2>
+</div>
 
 ### File: bettergrass.properties
 Controls settings for Better Grass in a resource pack.
@@ -24,7 +32,11 @@ Controls settings for Better Grass in a resource pack.
 ~/assets/minecraft/optifine/bettergrass.properties
 ```
 
-## Blocks
+<div align="center">
+    <h2>Properties</h2>
+</div>
+
+### Blocks
 Enable or disable Better Grass for individual blocks.
 
 ```properties
@@ -34,7 +46,7 @@ mycelium=<true/false>
 podzol=<true/false>
 ```
 
-## Multi-layer Grass Sides
+### Multi-layer Grass Sides
 Allows transparent grass texture to be used as an overlay for the side of grass.
 
 Layer 1 = `grass_side`   
@@ -44,7 +56,7 @@ Layer 2 = `grass` (colored by biome)
 grass.multilayer=<true/false>
 ```
 
-## Textures
+### Textures
 Configure which textures should be used. File directory starts from the "textures" folder of the resource pack.
 
 `texture.grass` is colored by biome.
