@@ -14,7 +14,7 @@ Custom Colors allows you to change the colors of otherwise hard-coded elements v
 </div>
 
 ```
-Video Settings... > Quality... > Custom Colors: ON|OFF
+Video Settings... -> Quality... -> Custom Colors: ON|OFF
 ```
 
 | Option | Default |
