@@ -15,14 +15,14 @@ CTM gives you the ability to replace textures of standard blocks using a variety
 </div>
 
 ```
-Video Settings... > Quality... > Connected Textures: FAST|FANCY|OFF
+Video Settings... -> Quality... -> Connected Textures: OFF|FAST|FANCY
 ```
 
 | Option | Default | Description |
 | :---: | :---: | :--- |
+| `OFF` | ✔️ |  |
 | `FAST` |  | Basic CTM textures, without inner seams. |
 | `FANCY` |  | Full CTM textures, with inner seams. |
-| `OFF` | ✔️ | CTM textures are not used. |
 
 <div align="center">
     <h2>Index</h2>
