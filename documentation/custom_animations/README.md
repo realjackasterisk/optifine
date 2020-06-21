@@ -18,7 +18,7 @@ such as Random Entities and Custom Sky.
 </div>
 
 ```
-Video Settings... > Animations... > Textures Animated: ON|OFF
+Video Settings... -> Animations... -> Textures Animated: ON|OFF
 ```
 
 
