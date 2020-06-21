@@ -20,3 +20,9 @@ such as Random Entities and Custom Sky.
 ```
 Video Settings... > Animations... > Textures Animated: ON|OFF
 ```
+
+
+| Option | Default |
+| :---: | :---: |
+| `ON` | ✔️ |
+| `OFF` |  |
