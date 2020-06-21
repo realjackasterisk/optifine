@@ -1,7 +1,7 @@
 
 <div align="center">
     <h1>Connected Textures</h1>
-    <h3>Shorthand: CTM</h3>
+    <h3>Alternate Name(s): CTM</h3>
 </div>
 
 <div align="center">
