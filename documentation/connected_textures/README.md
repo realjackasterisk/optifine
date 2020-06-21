@@ -1,21 +1,36 @@
 
 <div align="center">
-<h1>Connected Textures</h1>
-<h3>Shorthand: CTM</h3>
+    <h1>Connected Textures</h1>
+    <h3>Shorthand: CTM</h3>
 </div>
 
-## Description
-CTM gives you the ability to replace textures of standard blocks using a variety of custom parameters. This allows you to change blocks based on neighbor blocks, biome, world height, and more.
+<div align="center">
+    <h2>Description</h2>
+</div>
 
-OptiFine also supplies a small set of connected textures by default. This includes glass, glass panes, bookshelves, and sandstone.
+CTM gives you the ability to replace textures of standard blocks using a variety of custom parameters. This allows you to change blocks based on neighbor blocks, biome, world height, and more. OptiFine also supplies a small set of connected textures by default. This includes connected glass (panes and colored variants), bookshelves, sandstone, and red sandstone.
 
-## In-Game Settings
-`Video Settings... > Quality... > Connected Textures: OFF|FAST|FANCY`
+<div align="center">
+    <h2>In-Game Options</h2>
+</div>
 
-## Index
-- File Locations(s)
+```
+Video Settings... > Quality... > Connected Textures: FAST|FANCY|OFF
+```
+
+| Option | Default | Description |
+| :---: | :---: | :--- |
+| `FAST` |  | Basic CTM textures, without inner seams. |
+| `FANCY` |  | Full CTM textures, with inner seams. |
+| `OFF` | ✔️ | CTM textures are not used. |
+
+<div align="center">
+    <h2>Index</h2>
+</div>
+
+- [File Locations(s)](#file-locations)
     - File: *.properties
-- General Properties
+- [General Properties](#general-properties)
     - Match by Tile
     - Match by Block
     - Weight
@@ -25,30 +40,32 @@ OptiFine also supplies a small set of connected textures by default. This includ
     - Biomes
     - Heights
     - Inner Seams
-- Exclusive Properties for "overlay" Method
+- [Exclusive Properties for "overlay" Method](#overlay-specific-properties)
     - Connect by Tile
     - Connect by Block
     - Tint Index
     - Tint Block
     - Render Layer
-- Exclusive Properties for "random" Method
+- [Exclusive Properties for "random" Method]()
     - Tiles
     - Tile Weights
     - Random Loops
     - Symmetry
     - Linked Textures
-- Exclusive Properties for "repeat" Method
+- [Exclusive Properties for "repeat" Method]()
     - Tiles
     - Width
     - Height
     - Symmetry
-- Exclusive Properties for "ctm_compact" Method
+- [Exclusive Properties for "ctm_compact" Method]()
     - CTM Index
-- Footnotes
+- [Footnotes](#footnotes)
 
-## File Location(s)
+<div align="center">
+    <h2>File Location(s)</h2>
+</div>
 
-### File: *.properties
+### File: `*`.properties
 For each block you wish to override with CTM, you must specify a .properties file in the following directory:
 
 ```
@@ -57,12 +74,15 @@ For each block you wish to override with CTM, you must specify a .properties fil
 
 These files can be organized into sub-folders of any depth, as long as everything stays within this top-level CTM folder. Note that all property names are case-sensitive, and all file paths are relative to `~/assets/minecraft` unless stated otherwise.
 
-## General Properties
+<div align="center">
+    <h2>General Properties</h2>
+</div>
+
 The following properties are shared by **all** CTM methods.
 
 Multiple CTM files can refer to the same block/tile, and they will be processed in alphabetical order by filename. All tile-based entries are checked first before ID-based ones. The first match wins.
 
-### Match by Tile (optional?)<sup>[[1]](#matchrequired)</sup>
+### Match by Tile (optional?<sup>[[1]](#matchrequired)</sup>)
 Applies this CTM to the specified tiles. You can list any number of tiles, separated by a single space.
 
 ```properties
@@ -71,12 +91,12 @@ matchTiles=<tile name(s)>
 
 Tiles are essentially the name of the texture in `textures/block`, minus the file extension. For example, `dirt.png` would be matched like so:
 ```properties
-matchBlocks=dirt
+matchTiles=dirt
 ```
 
 To match a tile from another Minecraft mod, you will need to know it's internal name. Using [Botania](https://botaniamod.net/) as an example, this would look something like this:
 ```properties
-matchBlocks=botania:blazeblock
+matchTiles=botania:blazeblock
 ```
 
 Finally, you can also specify full paths. As stated before, these are still relative the the `~/assets/minecraft` folder.
@@ -84,7 +104,7 @@ Finally, you can also specify full paths. As stated before, these are still rela
 matchTiles=textures/myfolder/mycooltexture.png
 ```
 
-### Match by Block (optional?)<sup>[[1]](#matchrequired)</sup>
+### Match by Block (optional?<sup>[[1]](#matchrequired)</sup>)
 Applies this CTM to specified blocks based on their [namespaced ID.](https://minecraft.gamepedia.com/Namespaced_ID) As of Minecraft 1.13, [numeral IDs are no longer supported due to the Flattening.](https://minecraft.gamepedia.com/The_Flattening)
 
 ```properties
@@ -102,7 +122,7 @@ Sets the weight of this CTM file. Default value is 0.
 weight=<number>
 ```
 
-If multiple CTM files match the same block/tile, the one with the highest weight is used. In the off-chance of a tie, the file names are compared next.
+If multiple CTM files match the same block/tile, the one with the highest weight is used. In the off-chance of a tie, the file names are compared alphabetically.
 
 ### CTM Method
 Method to use when choosing the blocks replacement textures.
@@ -110,23 +130,23 @@ Method to use when choosing the blocks replacement textures.
 method=<method>
 ```
 
-| Method | Description | Example |
-| --- | --- | --- |
-| `ctm` | Standard 8-way method, uses 47 tiles. | Glass |
-| `ctm_compact` | Compact 8-way method, uses 5 tiles. |
-| `horizontal` | Only connect to blocks on the left and right. | Bookshelves |
-| `vertical` | Only connect to blocks above and below. |
-| `horizontal+vertical` | Connect horizontally, *then* vertically. |
-| `vertical+horizontal` | Connect vertically, *then* horizontally. |
-| `top` | Only connect to the block above. | Sandstone |
-| `random` | Pick a tile at random. If you only have one tile, this is effectively the same as `fixed`. |
-| `repeat` | Apply a fixed pattern over large areas. |
-| `fixed` | Use a single, fixed tile. |
-| `overlay` | Overlay for block transitions, uses 17 tiles. |
-| `overlay_ctm` | Overlay variant of `ctm` method. |
-| `overlay_random` | Overlay variant of `random` method. |
-| `overlay_repeat` | Overlay variant of `repeat` method. |
-| `overlay_fixed` | Overlay variant of `fixed` method. |
+|         Method        | Tile Count | Description                                   |
+|:---------------------:|:----------:|-----------------------------------------------|
+|         `ctm`         |     47     | Standard 8-way method.                        |
+|     `ctm_compact`     |      5     | Compact version of the 8-way method.          |
+|      `horizontal`     |      4     | Only connect to blocks on the left and right. |
+|       `vertical`      |      4     | Only connect to blocks above and below.       |
+| `horizontal+vertical` |      8     | Connect horizontally, *then* vertically.      |
+| `vertical+horizontal` |      8     | Connect vertically, *then* horizontally.      |
+|         `top`         |      4     | Only connect to the block above.              |
+|        `random`       |     1+     | Pick a tile at random.                        |
+|        `repeat`       |     4+     | Apply a fixed pattern over large areas.       |
+|        `fixed`        |      1     | Use a single, fixed tile.                     |
+|       `overlay`       |     17     | Overlay for transitions between blocks.       |
+|     `overlay_ctm`     |     47     | Overlay variant of `ctm` method.              |
+|    `overlay_random`   |     1+     | Overlay variant of `random` method.           |
+|    `overlay_repeat`   |     4+     | Overlay variant of `repeat` method.           |
+|    `overlay_fixed`    |      1     | Overlay variant of `fixed` method.            |
 
 Overlay methods can be conbined with other methods if they come before them in the processing order (alphabetically). The only exception to this is `ctm_compact`.
 
@@ -149,8 +169,10 @@ Each tile must be a separate image, just like vanilla block and item textures. T
 
 In all cases but the last, the texture file must be in the same directory as the CTM properties file itself.
 
+<div align="center">
+    <h2>Overlay-specific Properties</h2>
+</div>
 
-## Overlay-specific Properties
 The following properties are used exclusively by the `overlay` method.
 
 ### Connect by Tile (optional?)<sup>[[2]](#overlayrequired)</sup>
@@ -196,9 +218,9 @@ Acceptable values are as followed:
 
 <a name="matchrequired">[1]</a> While both of these properties are marked as optional, at least ONE of them is required under normal circumstances. However, if the CTM .properties file is named after the tile/block in question, both of the properties can be safely omitted. Use this table as a quick guide:
 
-| Full CTM file name | How it's interpreted |
-| --- | --- |
-| <name\>.properties | `matchTiles=<name>` |
-| block_\<name\>.properties | `matchBlocks=<name>` |
+| File name | Interpretation |
+| :---: | :--- |
+| `*`.properties | `matchTiles=<name>` |
+| block_`*`.properties | `matchBlocks=<name>` |
 
 <a name="overlayrequired">[2]</a> Similar to the note above, both of these properties are marked as optional, but at least ONE of them is required for the overlay to work properly.
