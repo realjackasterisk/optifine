@@ -24,6 +24,13 @@ Video Settings... -> Something... -> Feature Name: FAST|FANCY|OFF
 | `FANCY` |  |  |
 | `OFF` | ✔️ |  |
 
+alt:
+| Option | Default |
+| :---: | :---: |
+| `ON` | ✔️ |
+| `OFF` |  |
+
+
 <div align="center">
     <h2>Section</h2>
 </div>
