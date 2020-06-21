@@ -1,7 +1,6 @@
 
 <div align="center">
-    <h1>Feature Name</h1>
-    <h3>Alternate Name(s): </h3>
+    <h1>Custom GUIs</h1>
 </div>
 
 <div align="center">
