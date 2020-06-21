@@ -1,6 +1,7 @@
 
 <div align="center">
-<h1>Custom Biome Palettes</h1>
+    <h1>Custom Biome Palettes</h1>
+    <h3>Alternate Name(s): Custom Biome Colors</h3>
 </div>
 
 <div align="center">
