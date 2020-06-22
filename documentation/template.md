@@ -1,25 +1,38 @@
 
 <div align="center">
-    <h1>Emissive Textures</h1>
+    <h1>Feature Name</h1>
+    <h3>Alternate Name(s): </h3>
 </div>
 
 <div align="center">
     <h2>Description</h2>
 </div>
 
-Emissive Textures allows virtually any texture to appear to glow in the dark, in a similar fashion to Spider and Enderman eyes.
-
-Note that translucent emissive textures for opaque cube blocks DO NOT WORK due to an issue with render layers. This means emissive textures on regular blocks will have to be either full brightness or full darkness. That said, you *may* be able to fix this with [Custom Blocks.](https://github.com/realjackasterisk/OptiFine/tree/master/documentation/custom_blocks)
+Something incredibly interesting.
 
 <div align="center">
     <h2>In-Game Options</h2>
 </div>
 
 ```
-Video Settings... -> Quality... -> Emissive Textures: ON|OFF
+Video Settings... -> Something... -> Feature Name: FAST|FANCY|OFF
 ```
 
+| Option | Default | Description |
+| :---: | :---: | :--- |
+| `FAST` |  |  |
+| `FANCY` |  |  |
+| `OFF` | ✔️ |  |
+
+alt:
 | Option | Default |
 | :---: | :---: |
-| `ON` |  |
-| `OFF` | ✔️ |
+| `ON` | ✔️ |
+| `OFF` |  |
+
+
+<div align="center">
+    <h2>Section</h2>
+</div>
+
+### Subsection
