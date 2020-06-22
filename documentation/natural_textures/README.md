@@ -1,10 +1,23 @@
 
 <div align="center">
-<h1>FEATURE NAME</h1>
+    <h1>Natural Textures</h1>
 </div>
 
-## Description
+<div align="center">
+    <h2>Description</h2>
+</div>
 
+Natural Textures removes the grid-like pattern of repeating blocks by using rotated and flipped variants of the base block texture(s). This can help fix large, flat areas of land to appear less artifical.
 
-## In-game Settings
-`Video Settings... > `
+<div align="center">
+    <h2>In-Game Options</h2>
+</div>
+
+```
+Video Settings... -> Quality... -> Natural Textures: ON|OFF
+```
+
+| Option | Default |
+| :---: | :---: |
+| `ON` |  |
+| `OFF` | ✔️ |
